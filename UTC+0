@@ -1,2 +1,5 @@
 select
-  to_char(now(), 'HH24:MI DD:MM:YYYY');
+  to_char(
+    current_timestamp at time zone 'UTC-3',
+    'HH24:MI DD:MM:YYYY'
+  );
