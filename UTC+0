@@ -1,0 +1,2 @@
+select
+  to_char(now(), 'HH24:MI DD:MM:YYYY');
